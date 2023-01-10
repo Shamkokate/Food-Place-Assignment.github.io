@@ -1,0 +1,566 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+/* Header*/
+
+#header1 {
+    height: 20%;
+    width: 100%;
+    margin: 0px;
+    margin-top: 20px;
+    align-items: center;
+    display: block;
+    position: sticky;
+    margin-bottom: 10px;
+}
+
+a {
+    display: block;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    height: 25px;
+    width: 110px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: -10px;
+}
+
+a:hover {
+    background-color: burlywood;
+    color: white;
+    border-radius: 3px;
+    width: 110px;
+}
+
+.main-list {
+    display: flex;
+    position: relative;
+    float: right;
+    margin-right: 30px;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 3px;
+    width: 130px;
+    padding-left: 15px;
+    justify-content: center;
+}
+
+#logo {
+    margin-left: 20px;
+}
+
+.top-bar {
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+/* main page*/
+
+#welcome-text1 {
+    position: relative;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+#welcome-text2 {
+    position: relative;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#div1 {
+
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-top: 20px;
+    padding-top: 100px;
+    background-image: linear-gradient(0deg,
+            rgba(1, 1, 1, 0.3),
+            rgba(1, 1, 1, 0.6)),
+        url(restaurent.jpg);
+}
+
+.little-story {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -120px;
+    width: 700px;
+}
+
+#button1 {
+    position: relative;
+    border: 10px;
+    color: white;
+    margin-left: 42%;
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    border: 3px solid burlywood;
+    margin-bottom: 0px;
+    background: none;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+#button1:hover {
+    background-color: burlywood;
+}
+
+/*About Restrorent*/
+
+#shadow {
+    margin-left: 50px;
+    background-color: burlywood;
+    box-shadow: -15px -15px burlywood;
+}
+
+#half-heading {
+    color: burlywood;
+}
+
+div2 {
+    display: block;
+    width: 500px;
+    float: right;
+    text-align: center;
+    margin-right: 100px;
+}
+
+#button2 {
+    position: relative;
+    border: 10px;
+    color: black;
+    margin-left: 67%;
+    display: block;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    border: 3px solid burlywood;
+    margin-bottom: 10px;
+    background: none;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+#button2:hover {
+    background-color: burlywood;
+}
+
+/*Thought About Restorent*/
+
+#slogan {
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+#slogan-by {
+    margin-left: 730px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+}
+
+.scrolling-div {
+    width: 100%;
+    height: 35%;
+    border: 2px;
+    background-image: linear-gradient(0deg,
+    rgba(1, 1, 1, 0.3),
+    rgba(1, 1, 1, 0.6)),
+    url(scrollingimage.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#special-menu {
+    text-align: center;
+}
+
+#special-menu-text {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Main Menu button */
+
+.button-group {
+    display: block;
+    border: 10px;
+    color: black;
+    width: 500px;
+    height: 70px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    align-content: center;
+    margin-left: 425px;
+}
+
+#button-one {
+    height: 35px;
+    width: 60px;
+    margin-top: 17px;
+    border: none;
+    border-radius: 3px;
+}
+
+#button-one:hover {
+    background-color: burlywood;
+    color: white;
+    cursor: pointer;
+}
+
+#button-two {
+    height: 35px;
+    width: 90px;
+    border: none;
+    border-radius: 3px;
+}
+
+#button-two:hover {
+    background-color: burlywood;
+    color: white;
+    cursor: pointer;
+}
+
+#button-three {
+    height: 35px;
+    width: 80px;
+    border: none;
+    border-radius: 3px;
+}
+
+#button-three:hover {
+    background-color: burlywood;
+    color: white;
+    cursor: pointer;
+}
+
+#button-four {
+    height: 35px;
+    width: 80px;
+    border: none;
+    border-radius: 3px;
+}
+
+#button-four:hover {
+    background-color: burlywood;
+    color: white;
+    cursor: pointer;
+}
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25% 25%;
+    justify-content: center;
+    grid-row-gap: 60px;
+    grid-column-gap: 40px;
+}
+
+.grid-container div {
+    height: 220px;
+    text-align: center;
+    position: relative;
+}
+
+/*main Menu Gallery*/
+
+#special-food-name {
+    color: white;
+    padding-left: 30px;
+    text-align: left;
+}
+
+#special-food-items {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 35px;
+    border-bottom: 2px dotted black;
+    font-size: 13px;
+    padding-bottom: 25px;
+    text-align: left;
+}
+
+#special-drink1 {
+    background-image: linear-gradient(0deg,
+            rgba(204, 156, 92, 0.6),
+            rgba(204, 156, 92, 0.9)),
+        url(drink1.jpg);
+}
+
+#special-drink2 {
+    background-image: linear-gradient(0deg,
+            rgba(204, 156, 92, 0.6),
+            rgba(204, 156, 92, 0.9)),
+        url(drink2.jpg);
+}
+
+#special-drink3 {
+    background-image: linear-gradient(0deg,
+            rgba(204, 156, 92, 0.6),
+            rgba(204, 156, 92, 0.9)),
+        url(drink3.jpg);
+}
+
+#special-lunch1 {
+    background-image: linear-gradient(0deg,
+            rgba(204, 156, 92, 0.6),
+            rgba(204, 156, 92, 0.9)),
+        url(lunch1.jpg);
+}
+
+#special-lunch2 {
+    background-image: linear-gradient(0deg,
+            rgba(204, 156, 92, 0.6),
+            rgba(204, 156, 92, 0.9)),
+        url(lunch2.jpg);
+}
+
+#special-lunch3 {
+    background-image: linear-gradient(0deg,
+            rgba(204, 156, 92, 0.6),
+            rgba(204, 156, 92, 0.9)),
+        url(lunch3.jpg);
+}
+
+#special-dinnar1 {
+    background-image: linear-gradient(0deg,
+            rgba(204, 156, 92, 0.6),
+            rgba(204, 156, 92, 0.9)),
+        url(dinnar1.jpg);
+}
+
+#special-dinnar2 {
+    background-image: linear-gradient(0deg,
+            rgba(204, 156, 92, 0.6),
+            rgba(204, 156, 92, 0.9)),
+        url(dinnar2.jpg);
+
+}
+
+#special-dinnar3 {
+    background-image: linear-gradient(0deg,
+            rgba(204, 156, 92, 0.6),
+            rgba(204, 156, 92, 0.9)),
+        url(dinnar3.jpg);
+    background-repeat: no-repeat;
+    display: grid;
+    height: 220px;
+    width: 350px;
+    margin-left: 500px;
+    margin-top: 60px;
+}
+
+#special-food-name1 {
+    color: white;
+    padding-left: 30px;
+    text-align: left;
+
+}
+
+#special-food-items1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 25px;
+    text-align: left;
+    margin: 35px;
+    border-bottom: 2px dotted black;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.price1 {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+
+.price {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Image Gallery of food */
+
+#gallery {
+    text-align: center;
+}
+
+#gallery-info {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    margin-left: 120px;
+    grid-row-gap: 50px;
+}
+
+.gallery-items {
+    transition: 0.5s;
+}
+
+.gallery-items:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.end-content {
+    text-align: center;
+}
+
+#ceo {
+    border-radius: 100px;
+    border: 1px solid burlywood;
+    outline-offset: 50px;
+}
+
+#ceo-name {
+    color: burlywood;
+}
+
+#ceo-company {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#box2 {
+    height: 80px;
+    width: 730px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+
+.social-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    background-color: burlywood;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+/*Contact Info*/
+.contact-info {
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: -40px;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Footer */
+
+.footer-grid-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 70px;
+    color: white;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.95),
+            rgba(0, 0, 0, 0.95),
+            black);
+    width: 100%;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.footer-content {
+    font-size: 13px;
+    line-height: normal;
+    word-spacing: normal;
+}
+
+.footer-heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 2px dotted burlywood;
+    padding-bottom: 15px;
+    font-weight: 100;
+}
+
+#footer-heading1 {
+    margin-left: 60px;
+}
+
+#email {
+    width: 260px;
+    height: 50px;
+    background-color: black;
+    border: none;
+    font-size: 15px;
+}
+
+#button-subscribe {
+    height: 50px;
+    width: 264px;
+    background-color: burlywood;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+#button-subscribe:hover {
+    background-color: black
+}
+
+#copyright {
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
